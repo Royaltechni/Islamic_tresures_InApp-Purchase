@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+<access origin="*" />
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+    <domain-config cleartextTrafficPermitted="true">
+    
+        <domain includeSubdomains="true">http://api.alquran.cloud</domain>
+    </domain-config>
+</network-security-config>

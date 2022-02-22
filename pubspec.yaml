@@ -1,0 +1,144 @@
+name: kidsapp
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+   sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: any
+  font_awesome_flutter: ^9.0.0
+  page_transition: any
+  material_dialogs: ^1.0.0
+  http: ^0.13.0
+  provider: ^6.0.0
+  dio: ^4.0.0
+  page_indicator: ^0.4.1
+  flutter_staggered_grid_view: ^0.4.0
+  shared_preferences: ^2.0.5
+  geolocator: ^7.6.0
+  hijri: ^2.0.3
+  intl: any
+  geocoding: ^2.0.0
+  cached_network_image: ^3.0.0
+  connectivity: any
+  #animated_splash_screen: any
+  audioplayers: ^0.19.1
+  audio_video_progress_bar: ^0.4.0
+  percent_indicator: ^3.0.1
+  flutter_countdown_timer: ^4.1.0
+  animated_splash_screen: any
+  record: ^1.0.3
+  just_audio: ^0.9.9
+  audio_session: any
+  rxdart: any
+  flutter_html: ^2.1.1
+  #assets_audio_player: ^3.0.3
+  path_provider: ^2.0.3
+  pull_to_refresh: ^1.6.5
+  expandable: ^5.0.1
+  better_player: ^0.0.72
+  flutter_animation_progress_bar: ^2.0.1
+  rflutter_alert: ^2.0.4
+  location: ^4.3.0
+  url_launcher: any
+  firebase_messaging: any
+  firebase_core: ^1.6.0
+  flutter_local_notifications: ^8.2.0
+  email_validator: ^2.0.1
+  flutter_math_fork: ^0.5.0
+  visibility_detector: ^0.2.2
+  purchases_flutter: ^3.9.4
+  fluttertoast: ^8.0.8
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/audio/mixkit-achievement-bell-600.wav
+   # - assets/images/Group 39.png
+   # - assets/images/Group 72.png
+   # - assets/images/weather.jpeg
+   # - assets/images/quran.png
+   # - assets/images/duaa.png
+   # - assets/images/moshaf.png
+   # - assets/images/bal.png
+   # - assets/images/Group 77.png
+   # - assets/images/Mask Group 1.png
+   # - assets/images/Group 2386.png
+   # - assets/images/Mask Group 3.png
+   # - assets/images/Group 705.png
+   # - assets/images/Group 709.png
+   # - assets/images/Group 804.png
+   # - assets/images/Group 813.png
+   # - assets/images/Group 815.png
+   # - assets/images/Group 795.png
+   # - assets/images/bss.png
+   # -  assets/images/salah.png
+   # -  assets/images/azkar.png
+   # -  assets/images/ramadan.png
+   # -  assets/images/quraan.png
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

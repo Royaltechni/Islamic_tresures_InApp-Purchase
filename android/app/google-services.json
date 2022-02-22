@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186780899311",
+    "project_id": "islamic-treasures-1fc7a",
+    "storage_bucket": "islamic-treasures-1fc7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186780899311:android:94264fe6f74253f923881a",
+        "android_client_info": {
+          "package_name": "com.royaltechni.kidsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186780899311-73mh8r39tnvh7coaii65lithcd9hco3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyhkkIsnIhFLey7tnS4moEdfGvntpKzuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186780899311-73mh8r39tnvh7coaii65lithcd9hco3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
